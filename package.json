@@ -1,17 +1,16 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-
-	"name": "my-hyperdev-app",
+	"name": "fcc-mongo-mongoose-challenges",
 	"version": "0.0.1",
-	"description": "What am I about?",
+	"description": "A boilerplate project",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"dependencies": {
-    "express": "^4.12.4"
+		"express": "^4.12.4",
+		"mongodb": "^2.2.6",
+		"mongoose": "^4.5.9",
+		"body-parser": "^1.15.2"
 	},
 	"engines": {
 		"node": "4.4.3"
@@ -23,8 +22,7 @@
 	"keywords": [
 		"node",
 		"hyperdev",
-		"express",
-		"test"
+		"express"
 	],
 	"license": "MIT"
 }
